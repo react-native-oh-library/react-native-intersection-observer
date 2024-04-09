@@ -9,7 +9,6 @@ import {
   NativeScrollEvent,
   NativeSyntheticEvent,
   ScrollView,
-  findNodeHandle,
 } from 'react-native';
 
 import IOContext, { IOCOntextValue } from './IOContext';
@@ -89,7 +88,7 @@ function withIO<
     }
 
     componentDidMount() {
-      this.node = findNodeHandle(this.scroller.current);
+      this.node = this.scroller.current;
       methods.forEach((method) => {
         (this as any)[method] = (...args: any) => {
           this.scroller.current?.[method]?.(...args);

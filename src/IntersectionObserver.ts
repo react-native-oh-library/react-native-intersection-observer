@@ -76,7 +76,12 @@ class IntersectionObserver {
   }
 
   protected measureTarget = (target: Element) => {
-    const rootNode = this.options.root.node;
+    let rootNode = this.options.root.node;
+    
+    if(this.options.root.node?._listRef){
+      rootNode = this.options.root.node._listRef?._scrollRef;
+    }
+
     if (rootNode) {
       target.measureLayout(rootNode, (x, y, width, height) => {
         target.layout = {
