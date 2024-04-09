@@ -1,13 +1,14 @@
 {
-  "name": "react-native-intersection-observer",
-  "version": "0.2.0",
+  "name": "@react-native-oh-tpl/react-native-intersection-observer",
+  "version": "0.2.0-0.0.1",
   "description": "react native intersection observer",
   "keywords": [
     "react",
     "react-native",
     "intersection",
     "intersection-observer",
-    "IntersectionObserver"
+    "IntersectionObserver",
+    "harmony"
   ],
   "author": "zhbhun",
   "repository": "zhbhun/react-native-intersection-observer",
@@ -16,6 +17,9 @@
     "LICENSE",
     "lib"
   ],
+  "harmony": {
+    "alias": "react-native-intersection-observer"
+  },
   "scripts": {
     "build": "rimraf lib && tsc --build tsconfig.release.json",
     "android": "react-native run-android",
