@@ -1,0 +1,1 @@
+{"version":3,"names":["FlatList","withIO","IOFlatList"],"sourceRoot":"..\\..\\src","sources":["IOFlatList.ts"],"mappings":"AACA,SAASA,QAAQ,QAAuB,cAAc;AACtD,OAAOC,MAAM,MAA4B,UAAU;AAOnD,MAAMC,UAAU,GAAGD,MAAM,CAACD,QAAQ,EAAE,CAClC,uBAAuB,EACvB,oBAAoB,EACpB,oBAAoB,EACpB,mBAAmB,EACnB,aAAa,EACb,eAAe,EACf,cAAc,EACd,gBAAgB,CACjB,CAAC;AAMF,eAAeE,UAAU","ignoreList":[]}

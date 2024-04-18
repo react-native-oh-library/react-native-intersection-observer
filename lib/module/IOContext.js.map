@@ -1,0 +1,1 @@
+{"version":3,"names":["createContext","IOContext","manager"],"sourceRoot":"..\\..\\src","sources":["IOContext.ts"],"mappings":"AAAA,SAASA,aAAa,QAAQ,OAAO;AAQrC,MAAMC,SAAS,gBAAGD,aAAa,CAAiB;EAC9CE,OAAO,EAAE;AACX,CAAC,CAAC;AAEF,eAAeD,SAAS","ignoreList":[]}

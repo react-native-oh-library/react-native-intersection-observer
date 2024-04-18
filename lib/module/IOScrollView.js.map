@@ -1,0 +1,1 @@
+{"version":3,"names":["ScrollView","withIO","IOScrollView"],"sourceRoot":"..\\..\\src","sources":["IOScrollView.ts"],"mappings":"AACA,SAASA,UAAU,QAAyB,cAAc;AAC1D,OAAOC,MAAM,MAA4B,UAAU;AAMnD,MAAMC,YAAY,GAAGD,MAAM,CAACD,UAAU,EAAE,CACtC,UAAU,EACV,aAAa,EACb,oBAAoB,EACpB,mBAAmB,EACnB,kBAAkB,CACnB,CAAC;AAEF,eAAeE,YAAY","ignoreList":[]}

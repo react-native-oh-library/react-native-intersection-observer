@@ -15,7 +15,9 @@
   "main": "./lib/index.js",
   "files": [
     "LICENSE",
-    "lib"
+    "harmony",
+    "lib",
+    "src"
   ],
   "harmony": {
     "alias": "react-native-intersection-observer"
@@ -26,10 +28,13 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "bob": "bob build",
+    "prepare": "npm run bob"
   },
   "dependencies": {
-    "lodash": "^4.0.0"
+    "lodash": "^4.0.0",
+    "react-native-builder-bob": "^0.20.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -61,6 +66,14 @@
       "jsx",
       "json",
       "node"
+    ]
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module"
     ]
   }
 }
