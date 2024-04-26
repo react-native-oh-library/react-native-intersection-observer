@@ -12,7 +12,7 @@
   ],
   "author": "zhbhun",
   "repository": "zhbhun/react-native-intersection-observer",
-  "main": "./lib/index.js",
+  "main": "./lib/commonjs/index.js",
   "files": [
     "LICENSE",
     "harmony",
