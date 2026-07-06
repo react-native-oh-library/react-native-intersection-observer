@@ -1,6 +1,6 @@
 {
-  "name": "@react-native-oh-tpl/react-native-intersection-observer",
-  "version": "0.2.0-0.0.1",
+  "name": "@react-native-ohos/react-native-intersection-observer",
+  "version": "0.2.1",
   "description": "react native intersection observer",
   "keywords": [
     "react",
